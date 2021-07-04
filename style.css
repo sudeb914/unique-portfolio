@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #090f1ad3;
+}
+
+/* ==============================HEADER CSS======================== */
+
+.container{
+    width: 90%;
+    display: flex;
+    padding: 5%;
+
+}
+.owner{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.808);
+    margin-bottom: 20px;
+    margin-top: 200px;
+    font-weight: 600;
+    
+}
+.disciption{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.671);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.button-cv{
+    color: #fff;
+    padding: 10px 30px;
+    background: rgba(0, 0, 0, 0.192);
+    border: 2px solid #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 30px;
+
+}
+.item-1{
+    width: 50%;
+    margin-right: 50px;
+}
+.item-2{
+    width: 50%;
+}
+.item-2 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+/* ================================================SERVICES CSS=============================== */
+.common{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.services{
+    width: 30%;
+    margin-right: 40px;
+}
+.development{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.asha{
+    font-size: 34px;
+    padding-bottom: 9px;
+}
+.justify{
+    text-align: justify;
+}
+.sercices-header{
+    text-align: center;
+
+}
+.service-header{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 90px;
+    padding: 10px 0;
+    margin-bottom: -40px;
+    
+
+}
+
+
+
+
+/* ---------------------------------ABOUT ME--------------------------- */
+.picture{
+    width: 50%;
+}
+.picture img{
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+}
+.me{
+    width: 50%;
+}
+.about-me-discription{
+    color: rgba(255, 255, 255, 0.808);
+    text-align: justify;
+    margin-top: 70px;
+    font-weight: 400;
+    
+    
+}
+.copy{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
